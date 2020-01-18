@@ -1,4 +1,4 @@
-# Web-Scraping-Using-Selenium-Facebook-as-an-example-
+# Web-Scraping-Using-Selenium: Facebook-as-an-example
 Python code using selenium to scrape data from Facebook 
 # Introduction:
 The code can be used to scrap Facebook fan pages (infinite scroll included) including the following information:
