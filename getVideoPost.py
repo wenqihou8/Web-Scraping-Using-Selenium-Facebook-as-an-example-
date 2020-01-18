@@ -340,12 +340,12 @@ class page_video_retrieve():
 # In[61]:
 
 
-name='evahou@umd.edu'
-password ='rhsmithumd'
+name='account name'
+password ='your password'
 #conn = mysql.connector.connect(user='root', password='rootrhsmith', host='localhost',database='Facebook',charset = 'utf8mb4')
-conn = mysql.connector.connect(user='root', password='Khj828828!', host='localhost',database='Facebook',charset = 'utf8mb4')
+conn = mysql.connector.connect(user='user', password='password', host='localhost',database='Facebook',charset = 'utf8mb4')
 #driver_path = '/Users/kunpengzhang/Software/chromedriver'
-driver_path = '/Users/wenqi/Desktop/Facebook/chromedriver'
+driver_path = 'path'
 cursor=conn.cursor()
 
 
@@ -359,7 +359,7 @@ retrieve.logIn(name,password)
 # In[63]:
 
 
-pages = ['174751071823','9018053518']
+pages = [list of page Ids or page names]
 for page in pages:
 
     cursor.execute('select videoId from videos')
